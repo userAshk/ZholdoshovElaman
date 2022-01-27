@@ -1,0 +1,9 @@
+.intro{
+    background: url(../img/intro-bg.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    .introLayer{
+        background: rgba(0, 0, 0, .8);
+    }
+}

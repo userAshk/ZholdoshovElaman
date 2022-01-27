@@ -1,31 +1,56 @@
+$primary:rgba(73, 179, 251, 1);
+$font:'Raleway', sans-serif;
+
+%hoverEffect{
+    border-bottom: 4px solid $primary;
+    transition: .3s;
+}
+
+
+@import 'intro';
+@import 'header';
+@import 'hero';
+
+
+
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: $font;
+    color: #fff;
+    outline: none;
 }
 body,
 html{
     overflow-x: hidden;
     background: #EDEEF0;
 }
-
+h1{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 120%;
+}
 h1, h2, h3, h4, h5, h6{
     margin: 0;
+    text-align: center;
 }
 a{
     text-decoration: none;
     font-size: 20px;
+    outline: none;
 }
 p{
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 24px;
+    line-height: 120%;
 }
-.container{
-    margin: auto;
-    width: 100%;
-    
+button{
+    outline: none;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 90%;
 }
 
 .footer{
