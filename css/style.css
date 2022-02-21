@@ -298,6 +298,10 @@ header {
   border-bottom: 1px solid #000;
 }
 
+.services-grid .serv-item .table .tbody h3 {
+  text-align: left;
+}
+
 .services-grid .serv-item .table .table-hr hr {
   height: 4px;
   background: #000;
