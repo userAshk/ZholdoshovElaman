@@ -1,18 +1,13 @@
 .hero{
-    padding-top: 10%;
+    padding: 150px 0 50px 0;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     align-items: center;
     height: 100%;
-
     .hero-item{
         padding: 5px;
-        margin-bottom: 100px;
-        h1{
-            margin: 50px 20px;
-        }
         p{
-            display: block;
+            margin: auto;
             width: 70%;
             text-align: center;
         }
@@ -20,35 +15,10 @@
             min-width: 300px;
             width: 100%;
             border-radius: 14px;
-        }
-    }
-    .contactUs{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        gap: 10px;
-        .call{
-            a{
-                font-size: 24px;
-                color: #000;
-                font-weight: 700;
+            @media (max-width: 740px) {
+                display: none;
             }
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: 50px;
-            padding: 10px;
-            width: 90%;
-            border-radius: 14px;
-            background: $primary;
-
-            cursor: pointer;
-            border-bottom: 4px solid transparent;
-            box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-
-            &:hover{
-                @extend %hoveAnimation
-            }
-        }
+            
+        } 
     }
 }

@@ -1,0 +1,45 @@
+@media (max-width: 740px) {
+    .heading {
+        // TABLET
+        .heading {
+            font-size: 42px;
+        }
+
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%; 
+        padding-bottom: 50px;
+    }
+
+    .header{
+        padding: 0;
+        .links{
+            display: none;
+        }
+        .orderCall{
+            display: none;
+        }
+        .menu-btn{
+            display: block;
+        }
+        .inMenu{
+            display: flex;
+            align-items: center;
+            max-width: 310px;
+            margin: 0 auto;
+            justify-content: space-around;
+        }
+    }
+
+    .services-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+

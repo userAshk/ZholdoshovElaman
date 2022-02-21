@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,102 +10,231 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Asaev Elaman</title>
 </head>
+
 <body>
-    <section class="intro">
-        <div class="introLayer">
-            <header>
-                <div class="wrapper">
-                    <div class="header">
-                        <div class="logo">
-                            <a href="#">Asaev Elaman</a>
-                        </div>
-                        <div class="links">
-                            <a href="#">Home</a>
-                            <a href="">About</a>
-                            <a href="">Blog</a>
-                        </div>
-                        <div class="orderCall">
-                            <a href="#">
-                                <img src="img/icons/telegram.png" alt="">
-                            </a>
-                            <a href="">
-                                <img src="img/icons/whatsapp.png" alt="">
-                            </a>
-                        </div>
-                    </div>
+    <!-- WIDGET -->
+    <!-- <div class="contactUs">
+        <button class="writeUs">
+            <a href="">
+                <img src="img/icons/telegram.png" class="icons" alt="Телеграм">
+            </a>
+        </button>
+        <button class="writeUs">
+            <a href="">
+                <img src="img/icons/whatsapp.png" class="icons" alt="Ватсап">
+            </a>
+        </button>
+        <button class="writeUs">
+            <a href="">
+                <img src="img/icons/instagram (1).png" class="icons" alt="">
+            </a>
+        </button>
+    </div> -->
+
+    <header>
+        <div class="wrapper">
+            <div class="header">
+                <div class="logo">
+                    <a href="#">Asaev Elaman</a>
                 </div>
-            </header>
-            <div class="wrapper">
-                <section class="hero">
-                    <div class="hero-item">
-                        <h1>
-                            Мы позаботимся о здоровье ваших зубов.
-                        </h1>
-                        <p>
-                            Здоровье зубов касается ваших зубов, десен и полости рта. здоровый рот, без инфекций, травм и других
-                            проблем.
-                        </p>
-        
-                       <div class="contactUs">
-                            <button class="call">
-                                <a href="">Написать в WhatsApp</a>
-                            </button>
-                            <button class="call">
-                                <a href="">Написать нам в Telegram</a>
-                            </button>
-                            <button class="call">
-                                <a href="">Позвонить</a>
-                            </button>
-                       </div>
-                    </div>
-                    <div class="hero-item">
-                        <img src="img/hero-img.png" alt="">
-                    </div>
-                </section>
+                <div class="links">
+                    <a href="#">Home</a>
+                    <a href="">About</a>
+                    <a href="">Blog</a>
+                </div>
+                <div class="orderCall">
+                    <a href="#">
+                        <img src="img/icons/telegram.png" class="icons" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/icons/whatsapp.png" class="icons" alt="">
+                    </a>
+                </div>
+
+                <!-- BURGER -->
+                <div class="menu-btn">
+                    <span></span>
+                </div>
             </div>
         </div>
-    </section>
+    </header>
+
+    <!-- ACTIVE BURGER -->
+    <div class="menu-block">
+        <a href="#about" id="about-btn">О нас </a>
+        <a href="#services" id="serv-btn">Сферы деятельности</a>
+        <a href="#contacts" id="contacts-btn" class="lang" key='contact'>Контакты</a>
+        <div class="social_network inMenu">
+            <a href="#">
+                <img src="img/icons/telegram.png" class="icons" alt="">
+            </a>
+            <a href="">
+                <img src="img/icons/whatsapp.png" class="icons" alt="">
+            </a>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <section class="hero">
+            <div class="hero-item">
+                <h1 class="heading">
+                    Мы позаботимся о здоровье ваших зубов.
+                </h1>
+                <p class="section-p">
+                    В наших руках ваши зубы будут здоровыми и блестящими
+                </p>
+            </div>
+            <div class="hero-item">
+                <img src="img/hero-img.png" alt="">
+            </div>
+        </section>
+    </div>
+    <hr>
 
     <section class="services">
         <div class="wrapper">
-            <h1 class='heading'>Наши стоматологические услуги</h1>
+            <h1 class='heading'>Наши услуги</h1>
             <p class="section-p">
-                Dental or oral health is concerned with your teeth, gums and mouth. healthy mouth, free of infections, injuries and other problems with
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, dignissimos.
             </p>
+
+            <!-- SERVICES GRID -->
             <div class="services-grid">
                 <div class="serv-item">
-                    <img src="img/icons/serv-img.png" alt="">
-                    <h2>Lorem lorem</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro facilis adipisci sit aliquid tempora, ratione eaque laborum earum optio maxime.</p>
-                    <button class="read-more">
-                        Посмотреть
-                        <img src="img/icons/arrow.png" alt="">
-                    </button>    
+                    <div class="item-head">
+                        <img src="img/icons/serv-img.png" alt="">
+                        <div class="item-desc">
+                            <h2>ТЕРАПЕВТИЧЕСКАЯ СТОМАТОЛОГИЯ</h2>
+                            <p>
+                                Подразделение стоматологии, которое занимается лечением заболеваний зубной эмали, пульпы, слизистой оболочки рта.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="table">
+                        <div class="row thead">
+                            <h2>Наименование услуг</h2>
+                            <div class="price-head">
+                                Цена(сом)
+                            </div>
+                        </div>
+                        <div class="row tbody">
+                            <h3>
+                                Консультация врача специалиста
+                            </h3>
+                            <div>
+                                100
+                            </div>
+                        </div>
+                        <div class="row tbody">
+                            <h3>Обследование полости рта интраоральной камерой</h3>
+                            <div>100</div>
+                        </div>
+                        <div class="row tbody">
+                            <h3>Препарирование подготовка полости</h3>
+                            <div>100</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="serv-item">
+                    <div class="item-head">
+                        <img src="img/icons/serv-img.png" alt="">
+                        <div class="item-desc">
+                            <h2>ОРТОПЕДИЧЕСКАЯ СТОМАТОЛОГИЯ</h2>
+                            <p>
+                                Это область клинической медицины, изучающая этиологию и патогенез болезней, аномалий, деформаций и повреждений зубов, челюстей и других органов полости рта и челюстно-лицевой области, разрабатывающая методы их диагностики, лечения и профилактики.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="table">
+                        <div class="row thead">
+                            <h2>Наименование услуг</h2>
+                            <div class="price-head">
+                                Цена(сом)
+                            </div>
+                        </div>
+                        <div class="row tbody">
+                            <h3>
+                                Консультация врача специалиста
+                            </h3>
+                            <div>
+                                100
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="serv-item">
+                    <div class="item-head">
+                        <img src="img/icons/serv-img.png" alt="">
+                        <div class="item-desc">
+                            <h2>ОРТОДОНТИЯ</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Totam sapiente esse alias quia qui excepturi odio enim voluptatem distinctio ab.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="table">
+                        <div class="row thead">
+                            <h2>Наименование услуг</h2>
+                            <div class="price-head">
+                                Цена(сом)
+                            </div>
+                        </div>
+                        <div class="row tbody">
+                            <h3>
+                                Консультация врача специалиста
+                            </h3>
+                            <div>
+                                100
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="serv-item">
+                    <div class="item-head">
+                        <img src="img/icons/serv-img.png" alt="">
+                        <h2></h2>
+                    </div>
+                    <p>
+                    </p>
                 </div>
                 <div class="serv-item">
-                    <img src="img/icons/serv-img.png" alt="">
-                    <h2>Lorem lorem</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro facilis adipisci sit aliquid tempora, ratione eaque laborum earum optio maxime.</p>
-                    <button class="read-more">
-                        Посмотреть
-                        <img src="img/icons/arrow.png" alt="">
-                    </button>    
+                    <div class="item-head">
+                        <img src="img/icons/serv-img.png" alt="">
+                        <h2>ОРТОДОНТИЯ</h2>
+                    </div>
+                    <p>
+                        Подразделение стоматологии, которое занимается лечением заболеваний зубной эмали, пульпы, слизистой оболочки рта.
+                    </p>
+
                 </div>
                 <div class="serv-item">
-                    <img src="img/icons/serv-img.png" alt="">
-                    <h2>Lorem lorem</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro facilis adipisci sit aliquid tempora, ratione eaque laborum earum optio maxime.</p>
-                    <button class="read-more">
-                        Посмотреть
-                        <img src="img/icons/arrow.png" alt="">
-                    </button>
-                </div>
+                    <div class="item-head">
+                        <img src="img/icons/serv-img.png" alt="">
+                        <h2>ХИРУРГИЧЕСКАЯ СТОМАТОЛОГИЯ </h2>
+                    </div>
+                    <p>
+                        Подразделение стоматологии, которое занимается лечением заболеваний зубной эмали, пульпы, слизистой оболочки рта.
+                    </p>
+                </div> -->
             </div>
         </div>
     </section>
 
+    <footer>
+        <h1>FOOTER</h1>
+    </footer>
 
-
-
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script>
+<script src="app.js"></script>
 </body>
+
 </html>

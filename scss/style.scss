@@ -1,42 +1,29 @@
 $primary:rgba(73, 179, 251, 1);
 $font:'Raleway', sans-serif;
 
-%hoverEffect{
+%link-hover{
     border-bottom: 4px solid $primary;
     transition: .3s;
 }
 
-%hoveAnimation{
-    animation: float;
+%btn-hover{
     animation-delay: 0.2s;
-    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-    transform: translatey(0px);
-    animation: float 1s ease-in-out infinite;
     transition: .4s;
-    color: red;
+    color: #fff;
+    background: $primary;
     cursor: pointer;
 }
 
-@keyframes float {
-    0% {
-      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-      transform: translatey(0px);
-    }
-    50% {
-      box-shadow: 0 10px 15px 0px rgba(0,0,0,0.2);
-      transform: translatey(-10px);
-    }
-    100% {
-      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-      transform: translatey(0px);
-    }
-  }
-
-
 @import 'intro';
 @import 'header';
+@import 'burger';
+
 @import 'hero';
 @import 'services';
+
+@import 'media';
+@import 'contsactWidget';
+
 
 
 
@@ -50,56 +37,60 @@ $font:'Raleway', sans-serif;
     outline: none;
 }
 html{
-    overflow-x: hidden;
     background: #EDEEF0;
     scroll-behavior: smooth;
-}
-h1{
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 120%;
-}
-h1{
-    margin: 0;
-    text-align: center;
+    overflow: auto;
 }
 a{
     text-decoration: none;
     font-size: 20px;
-    outline: none;
-}
-p{
-    font-size: 18px;
-    line-height: 110%;
 }
 button{
     outline: none;
     border: none;
 }
+p{
+    font-weight: 900;
+}
+
 .wrapper{
     margin: 0 auto;
     width: 90%;
+    position: relative;
     .heading{
         font-weight: 600;
         font-size: 56px;
         line-height: 135%;
-        /* or 76px */
-
         text-align: center;
         color: #031126;
-        margin: 40px 0;
+        margin: 40px 20px;
+
+
     }
     .section-p{
         text-align: center;
+        font-size: 22px;
         margin: 0 5%;
         line-height: 120%;
     }
 }
 
-.footer{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.icons{
+    padding: 8px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid $primary;
+    border-radius: 14px;
+    &:hover{
+        border: 2px solid red;
+        transition: .3s;
+    }
+}
+
+footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100px;
+    background: #000;
 }
