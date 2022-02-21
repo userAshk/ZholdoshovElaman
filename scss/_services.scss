@@ -8,7 +8,6 @@
     gap: 20px;
     margin: 50px 0;
     .serv-item{
-        margin: 0 auto;
         background: rgba(201, 233, 255, 0.2);
         padding: 20px 40px;
         text-align: center;
@@ -17,12 +16,18 @@
             height: 85px;
             width: 75px;
             margin: 10px 10px;
+            object-fit: contain;
         }
         .item-head{
             display: flex;
             align-items: center;
             justify-content: space-around;
-            
+            .item-desc{
+                h2{
+                    font-size: 48px;
+                    text-align: center;
+                }
+            }
             @media (max-width: 768px) {
                 flex-direction: column;
             }

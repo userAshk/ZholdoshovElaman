@@ -238,7 +238,6 @@ header {
 }
 
 .services-grid .serv-item {
-  margin: 0 auto;
   background: rgba(201, 233, 255, 0.2);
   padding: 20px 40px;
   text-align: center;
@@ -248,6 +247,8 @@ header {
   height: 85px;
   width: 75px;
   margin: 10px 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .services-grid .serv-item .item-head {
@@ -259,6 +260,11 @@ header {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.services-grid .serv-item .item-head .item-desc h2 {
+  font-size: 48px;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
