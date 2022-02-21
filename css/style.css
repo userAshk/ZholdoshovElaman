@@ -299,6 +299,12 @@ header {
   border-bottom: 4px solid #000;
 }
 
+@media (max-width: 740px) {
+  .services-grid .serv-item .table .thead h2 {
+    text-align: left;
+  }
+}
+
 .services-grid .serv-item .table .tbody {
   padding: 10px 0;
   border-bottom: 1px solid #000;
