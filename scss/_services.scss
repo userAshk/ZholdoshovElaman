@@ -10,7 +10,6 @@
     .serv-item{
         background: rgba(201, 233, 255, 0.2);
         padding: 20px 40px;
-        text-align: center;
             @extend %radiusAndShadow;
         img{
             height: 85px;
@@ -24,10 +23,11 @@
             justify-content: space-around;
             .item-desc{
                 h2{
-                    font-size: 48px;
+                    font-size: 36px;
                     text-align: center;
                 }
             }
+            
             @media (max-width: 768px) {
                 flex-direction: column;
             }
@@ -72,9 +72,6 @@
             h2{
                 padding-top: 20px;
                 text-transform: uppercase;
-                span{
-                    font-weight: 900;
-                }
             }
         }
     }

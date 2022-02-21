@@ -240,7 +240,6 @@ header {
 .services-grid .serv-item {
   background: rgba(201, 233, 255, 0.2);
   padding: 20px 40px;
-  text-align: center;
 }
 
 .services-grid .serv-item img {
@@ -263,7 +262,7 @@ header {
 }
 
 .services-grid .serv-item .item-head .item-desc h2 {
-  font-size: 48px;
+  font-size: 36px;
   text-align: center;
 }
 
@@ -333,10 +332,6 @@ header {
 .services-grid .serv-item .table h2 {
   padding-top: 20px;
   text-transform: uppercase;
-}
-
-.services-grid .serv-item .table h2 span {
-  font-weight: 900;
 }
 
 @media (max-width: 740px) {
