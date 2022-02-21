@@ -60,14 +60,14 @@
     opacity: 1;
     transition: 0.5s;
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     text-align: center;
+    padding-top: 80px;
     position: fixed;
     top: 80px;
     left: 0;
     z-index: 1000;
-    padding-top: 80px;
     a{
         border-bottom: 2px solid transparent;
     }
