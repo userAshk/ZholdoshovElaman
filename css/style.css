@@ -158,6 +158,7 @@ header {
   width: 100%;
   height: 100vh;
   text-align: center;
+  position: fixed;
   top: 80px;
   left: 0;
   z-index: 1000;
@@ -317,6 +318,15 @@ header {
 .services-grid .serv-item .table .tbody div {
   padding-left: 10px;
   font-size: 20px;
+}
+
+.services-grid .serv-item .table h2 {
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.services-grid .serv-item .table h2 span {
+  font-weight: 900;
 }
 
 @media (max-width: 740px) {
